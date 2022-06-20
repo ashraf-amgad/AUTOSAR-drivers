@@ -1,0 +1,171 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Louda _, NaN, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+C:\Users\Louda\Desktop\Can_test - Copy\Can_test.uvprojx
+Project File Date:  03/08/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Can'
+compiling Can_PBcfg.c...
+Dio_Regs.h(7): warning:  #47-D: incompatible redefinition of macro "AHBPERIPH_BASE"  (declared at line 104 of "Can_reg.h")
+  #define AHBPERIPH_BASE        (PERIPH_BASE + 0x20000)
+Dio_Regs.h(8): warning:  #47-D: incompatible redefinition of macro "RCC_BASE"  (declared at line 109 of "Can_reg.h")
+  #define RCC_BASE            	(AHBPERIPH_BASE + 0x1000)
+Dio_Regs.h(14): warning:  #47-D: incompatible redefinition of macro "APB2PERIPH_BASE"  (declared at line 103 of "Can_reg.h")
+  #define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+Dio_Regs.h(16): warning:  #47-D: incompatible redefinition of macro "GPIOA_BASE"  (declared at line 127 of "Can_reg.h")
+  #define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+Can_PBcfg.c: 4 warnings, 0 errors
+compiling main.c...
+Dio_Regs.h(7): warning:  #47-D: incompatible redefinition of macro "AHBPERIPH_BASE"  (declared at line 104 of "Can_reg.h")
+  #define AHBPERIPH_BASE        (PERIPH_BASE + 0x20000)
+Dio_Regs.h(8): warning:  #47-D: incompatible redefinition of macro "RCC_BASE"  (declared at line 109 of "Can_reg.h")
+  #define RCC_BASE            	(AHBPERIPH_BASE + 0x1000)
+Dio_Regs.h(14): warning:  #47-D: incompatible redefinition of macro "APB2PERIPH_BASE"  (declared at line 103 of "Can_reg.h")
+  #define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+Dio_Regs.h(16): warning:  #47-D: incompatible redefinition of macro "GPIOA_BASE"  (declared at line 127 of "Can_reg.h")
+  #define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+main.c: 4 warnings, 0 errors
+compiling Can.c...
+Dio_Regs.h(7): warning:  #47-D: incompatible redefinition of macro "AHBPERIPH_BASE"  (declared at line 104 of "Can_reg.h")
+  #define AHBPERIPH_BASE        (PERIPH_BASE + 0x20000)
+Dio_Regs.h(8): warning:  #47-D: incompatible redefinition of macro "RCC_BASE"  (declared at line 109 of "Can_reg.h")
+  #define RCC_BASE            	(AHBPERIPH_BASE + 0x1000)
+Dio_Regs.h(14): warning:  #47-D: incompatible redefinition of macro "APB2PERIPH_BASE"  (declared at line 103 of "Can_reg.h")
+  #define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+Dio_Regs.h(16): warning:  #47-D: incompatible redefinition of macro "GPIOA_BASE"  (declared at line 127 of "Can_reg.h")
+  #define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+Can.c: 4 warnings, 0 errors
+compiling Port_PBcfg.c...
+Port_PBcfg.c(66): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_0_NUM, PORT_PIN_OUT, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, AF_Push_Pull,
+Port_PBcfg.c(67): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_1_NUM, PORT_PIN_OUT, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, GPIO_Open_drain,
+Port_PBcfg.c(68): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_2_NUM, PORT_PIN_OUT, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, GPIO_Push_Pull,
+Port_PBcfg.c(69): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_3_NUM, PORT_PIN_IN, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, Analog,
+Port_PBcfg.c(70): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_4_NUM, PORT_PIN_IN, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, Floating,
+Port_PBcfg.c(71): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_5_NUM, PORT_PIN_IN, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PullDown,
+Port_PBcfg.c(72): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_6_NUM, PORT_PIN_IN, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PullUp,
+Port_PBcfg.c(73): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_7_NUM, PORT_PIN_OUT, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, AF_Open_drain,
+Port_PBcfg.c(74): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_8_NUM, PORT_PIN_OUT, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(75): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_9_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(76): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_10_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(77): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_11_NUM, PORT_PIN_IN, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PullDown,
+Port_PBcfg.c(78): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_12_NUM, PORT_PIN_OUT, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, AF_Push_Pull,
+Port_PBcfg.c(79): warning:  #188-D: enumerated type mixed with another type
+      PORT_A_NUM, PORT_PIN_15_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(81): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_0_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(82): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_1_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,   
+Port_PBcfg.c(83): warning:  #188-D: enumerated type mixed with another type
+     	PORT_B_NUM, PORT_PIN_3_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(84): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_4_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(85): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_5_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(86): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_6_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(87): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_7_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(88): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_8_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(89): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_9_NUM, PORT_PIN_DIRECTION_INITIAL_VALUE, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(90): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_10_NUM, PORT_PIN_OUT, STD_HIGH, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(91): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_11_NUM, PORT_PIN_OUT, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(92): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_12_NUM, PORT_PIN_OUT, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(93): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_13_NUM, PORT_PIN_OUT, STD_HIGH, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(94): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_14_NUM, PORT_PIN_OUT, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(95): warning:  #188-D: enumerated type mixed with another type
+      PORT_B_NUM, PORT_PIN_15_NUM, PORT_PIN_OUT, PORT_PINLEVEL_INITIAL_VALUE, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(97): warning:  #188-D: enumerated type mixed with another type
+      PORT_C_NUM, PORT_PIN_13_NUM, PORT_PIN_OUT, STD_LOW, PORT_PIN_MODE_INITIAL_VALUE, GPIO_Push_Pull,
+Port_PBcfg.c(98): warning:  #188-D: enumerated type mixed with another type
+      PORT_C_NUM, PORT_PIN_14_NUM, PORT_PIN_OUT, STD_HIGH, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE,
+Port_PBcfg.c(99): warning:  #188-D: enumerated type mixed with another type
+      PORT_C_NUM, PORT_PIN_15_NUM, PORT_PIN_OUT, STD_HIGH, PORT_PIN_MODE_INITIAL_VALUE, PORT_PIN_DRIVEN_MODE_INITIAL_VALUE
+Port_PBcfg.c: 32 warnings, 0 errors
+compiling Port.c...
+Port.c(384): warning:  #177-D: variable "Port_Ptr_CR"  was declared but never referenced
+      Port_PortRegisterType *Port_Ptr_CR = NULL_PTR;
+Port.c(385): warning:  #177-D: variable "error"  was declared but never referenced
+      boolean error = FALSE;
+Port.c(30): warning:  #550-D: variable "Port_Status"  was set but never used
+  STATIC uint8 Port_Status = PORT_NOT_INITIALIZED;
+Port.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=3916 RO-data=580 RW-data=20 ZI-data=1652  
+FromELF: creating hex file...
+".\Objects\Can_test.axf" - 0 Error(s), 47 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Can
+  C:\Users\Louda\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Users\Louda\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

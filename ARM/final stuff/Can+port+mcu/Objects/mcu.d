@@ -1,0 +1,11 @@
+.\objects\mcu.o: MCU.c
+.\objects\mcu.o: Det.h
+.\objects\mcu.o: Std_Types.h
+.\objects\mcu.o: Platform_Types.h
+.\objects\mcu.o: Compiler.h
+.\objects\mcu.o: SchM_Mcu.h
+.\objects\mcu.o: Mcu_Cbk.h
+.\objects\mcu.o: Mcu.h
+.\objects\mcu.o: Mcu_Cfg.h
+.\objects\mcu.o: Common_Macros.h
+.\objects\mcu.o: MCU_Regs.h
